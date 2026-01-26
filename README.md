@@ -1,50 +1,10 @@
-# Welcome to your Expo app 👋
+# Welcome to Mobile Application by React Native Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## BMI Calculator
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img src="https://github.com/user-attachments/assets/fb1ce328-3491-46aa-94ec-b00d87bdabfa" width="200">
+<img src="https://github.com/user-attachments/assets/adde6173-5e02-442b-a5d3-22da072e10f0" width="200">
+<img src="https://github.com/user-attachments/assets/1069e474-2c3b-41ab-995c-3a7e9c17cb84" width="200">
+<img src="https://github.com/user-attachments/assets/eee8f6b6-c4a8-4cfe-be34-1db13b036106" width="200">
+<img src="https://github.com/user-attachments/assets/4eb94cc2-ec21-4f0c-9bea-a16485dd2306" width="200">
+<img src="https://github.com/user-attachments/assets/0cd9dfbf-cf2b-481a-b259-4218fac24036" width="200">
