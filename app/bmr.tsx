@@ -14,7 +14,7 @@ import {
   View,
 } from "react-native";
 
-export default function Bmi() {
+export default function Bmr() {
   //สร้าง state สำหรับเก็บค่า เพศ น้ำหนัก ส่วนสูง อายุ BMI และผลลัพธ์ และการแปรผล
   const [gender, setGender] = useState("male");
   const [weight, setWeight] = useState("");
@@ -22,9 +22,9 @@ export default function Bmi() {
   const [age, setAge] = useState("");
   const [result, setResult] = useState("0");
 
-  //ฟังก์ชันคำนวณ BMI สำหรับผู้ชาย BMR = 66 + (13.7 x น้ำหนักตัวเป็น กก.) + (5 x ส่วนสูงเป็น ซม.) – (6.8 x อายุ)
-  //ฟังก์ชันคำนวณ BMI สำหรับผู้หญิง BMR = 665 + (9.6 x น้ำหนักตัวเป็น กก.) + (1.8 x ส่วนสูงเป็น ซม.) – (4.7 x อายุ
-  const calculateBmi = () => {
+  //ฟังก์ชันคำนวณ BMR สำหรับผู้ชาย BMR = 66 + (13.7 x น้ำหนักตัวเป็น กก.) + (5 x ส่วนสูงเป็น ซม.) – (6.8 x อายุ)
+  //ฟังก์ชันคำนวณ BMR สำหรับผู้หญิง BMR = 665 + (9.6 x น้ำหนักตัวเป็น กก.) + (1.8 x ส่วนสูงเป็น ซม.) – (4.7 x อายุ
+  const calculateBmr = () => {
     if (!weight || !height || !age) {
       Alert.alert("ข้อผิดพลาด", "กรุณากรอกข้อมูลให้ครบถ้วน");
       return;
@@ -56,7 +56,7 @@ export default function Bmi() {
             <StatusBar translucent backgroundColor="transparent" />
 
             <ImageBackground
-              source={require("../assets/images/bmi.jpg")}
+              source={require("../assets/images/bmr.jpg")}
               resizeMode="cover"
               style={styles.headerBackground}
             >
@@ -150,7 +150,7 @@ export default function Bmi() {
                 value={age.toString()}
                 onChangeText={(text) => setAge(text)}
               />
-              <TouchableOpacity onPress={calculateBmi}>
+              <TouchableOpacity onPress={calculateBmr}>
                 <Text style={styles.calculateButton}>คํานวณหาค่า BMR</Text>
               </TouchableOpacity>
               <View style={styles.cardresult}>
@@ -160,7 +160,7 @@ export default function Bmi() {
                     { fontSize: 20, color: "#000000" },
                   ]}
                 >
-                  BMI
+                  BMR
                 </Text>
                 <Text
                   style={[

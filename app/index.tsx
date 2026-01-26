@@ -5,7 +5,7 @@ import { ActivityIndicator, Image, StyleSheet, Text, View } from "react-native";
 export default function Index() {
   // โหลดหน้าจอ
   useEffect(() => {
-    const timer = setTimeout(() => {router.replace("/bmi");}, 3000);
+    const timer = setTimeout(() => {router.replace("/bmr");}, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -18,7 +18,7 @@ export default function Index() {
         <View style={[styles.circle, styles.circle1]} />
 
         <View style={styles.imageWrapper}>
-          <Image source={require("@/assets/images/bmi.jpg")} style={styles.profileImage} />
+          <Image source={require("@/assets/images/bmr.jpg")} style={styles.profileImage} />
         </View>
       </View>
 

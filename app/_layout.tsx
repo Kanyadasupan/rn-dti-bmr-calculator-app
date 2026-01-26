@@ -25,7 +25,7 @@ export default function RootLayout() {
       <StatusBar barStyle="light-content" translucent backgroundColor="transparent" />
       <Stack>
         <Stack.Screen name="index" options={{headerShown: false}}/>
-        <Stack.Screen name="bmi" options={{headerShown: false}}/>
+        <Stack.Screen name="bmr" options={{headerShown: false}}/>
       </Stack>
     </>
   );
