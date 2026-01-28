@@ -1,6 +1,6 @@
 # Welcome to Mobile Application by React Native Expo 👋
 
-## BMI Calculator
+## BMR Calculator
 
 <img src="https://github.com/user-attachments/assets/fb1ce328-3491-46aa-94ec-b00d87bdabfa" width="200">
 <img src="https://github.com/user-attachments/assets/adde6173-5e02-442b-a5d3-22da072e10f0" width="200">
